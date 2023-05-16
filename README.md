@@ -2,13 +2,13 @@
 # A challenge on [frontendmentor](https://www.frontendmentor.io)
  
 
-<img src="./design/active-states.jpg">
+<img src="./assets/images/Preview.jpg">
 <br>
 <br>
 
 # **Challenge Name**
 
-- ### [Results summary component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- ### [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
 
 <br>
 
@@ -29,7 +29,7 @@ The designs were created to the following widths:
 
 ## **Links**
 
-- Live Site URL: [click here](https://mahdicodes1.github.io/Product-preview-card-component/)
+- Live Site URL: [click here](https://mahdicodes1.github.io/Results-summary-component/)
 
 <br>
 
@@ -38,7 +38,6 @@ The designs were created to the following widths:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp;  ![CSS3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![ScrollReveal](https://img.shields.io/badge/ScrollReveal%20js-0e141f?style=for-the-badge&logo=ScrollReveal&logoColor=e39ff6)&nbsp;
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
 
 <br>
 
