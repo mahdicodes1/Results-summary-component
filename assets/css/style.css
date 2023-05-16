@@ -50,7 +50,7 @@ body {
 main {
   display: grid;
   grid-template-columns: unset;
-  grid-template-rows: 355px 1fr;
+  grid-template-rows: 325px 1fr;
 
   background-color: var(--white);
   box-shadow: -5px 10px 20px rgba(88, 130, 219, 0.7);
@@ -118,7 +118,7 @@ main {
   font-weight: 700;
 }
 .summary-pane > #btn {
-  height: 57px;
+  height: 47px;
   padding: 10px 20px 10px 20px;
   border-width: 0;
   -webkit-border-radius: 60;
@@ -145,7 +145,7 @@ table tbody tr td {
   justify-content: space-between;
   align-items: center;
 
-  height: 55px;
+  height: 45px;
   padding: 0 25px;
   font-size: 13px;
   background: yellow;
@@ -213,6 +213,13 @@ footer {
   }
   .result-pane > .result-description > p {
     font-size: 16px;
+  }
+  .summary-pane > #btn {
+    height: 57px;
+  }
+
+  table tbody tr td {
+    height: 55px;
   }
   footer {
     margin-bottom: 30px;
