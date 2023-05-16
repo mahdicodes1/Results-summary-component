@@ -118,7 +118,7 @@ main {
   font-weight: 700;
 }
 .summary-pane > #btn {
-  height: 47px;
+  height: 57px;
   padding: 10px 20px 10px 20px;
   border-width: 0;
   -webkit-border-radius: 60;
@@ -145,7 +145,7 @@ table tbody tr td {
   justify-content: space-between;
   align-items: center;
 
-  height: 45px;
+  height: 55px;
   padding: 0 25px;
   font-size: 13px;
   background: yellow;
@@ -213,14 +213,8 @@ footer {
   }
   .result-pane > .result-description > p {
     font-size: 16px;
-  }
-  .summary-pane > #btn {
-    height: 57px;
-  }
-
-  table tbody tr td {
-    height: 55px;
-  }
+  } 
+ 
   footer {
     margin-bottom: 30px;
     font-size: 13px;

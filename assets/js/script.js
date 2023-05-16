@@ -44,19 +44,19 @@ $(document).ready(function () {
 
     // Animates result
     ScrollReveal().reveal(resultText, {
-      distance: "150%",
+      opacity: 0,
       delay: 500,
       duration: 1000,
     });
     // Animates the status of the result that is Great!
     ScrollReveal().reveal(".result-description > h3", {
-      distance: "150%",
+      opacity: 0,
       delay: 1000,
       duration: 1000,
     });
     // Animates the description of the result.
     ScrollReveal().reveal(".result-description > p", {
-      distance: "150%",
+      opacity: 0,
       delay: 2000,
       duration: 1000,
     });
@@ -68,7 +68,7 @@ $(document).ready(function () {
     }
     // Animates test data
     ScrollReveal().reveal(".reveal-top", {
-      distance: "150%",
+      opacity: 0,
       delay: 5000,
       duration: 1000,
       interval: 1750,
@@ -79,5 +79,6 @@ $(document).ready(function () {
       delay: 12000,
       duration: 1000,
     });
+    
   });
 });
