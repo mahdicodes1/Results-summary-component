@@ -46,6 +46,7 @@ body {
   height: 100vh;
   margin: 0;
   background: var(--pale-blue);
+  overflow: auto;
 }
 main {
   display: grid;
