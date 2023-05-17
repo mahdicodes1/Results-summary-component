@@ -89,14 +89,14 @@ $(document).ready(function () {
       delay: 12000,
       duration: 1000,
     });
-    resultText.classList.remove("reveal1");
-    resultDescriptionH3.classList.remove("reveal2");
-    resultDescriptionP.classList.remove("reveal3");
-    for (const child of productDescription.children) {
-      child.classList.remove("reveal4");
-    }
-    summaryPaneButton.classList.remove("reveal5");
-    //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
+    // resultText.classList.remove("reveal1");
+    // resultDescriptionH3.classList.remove("reveal2");
+    // resultDescriptionP.classList.remove("reveal3");
+    // for (const child of productDescription.children) {
+    //   child.classList.remove("reveal4");
+    // }
+    // summaryPaneButton.classList.remove("reveal5");
+    // //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
     $("body").css("height", "100vh");
   });
 });
