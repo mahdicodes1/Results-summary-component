@@ -41,20 +41,30 @@ $(document).ready(function () {
 
     //  Codes for animation
 
+    const resultDescriptionH3 = document.querySelector(
+      ".result-description > h3"
+    );
+    const resultDescriptionP = document.querySelector(
+      ".result-description > p"
+    );
+    const summaryPaneButton = document.querySelector(".summary-pane > button");
     // Animates result
-    ScrollReveal().reveal(resultText, {
+    resultText.classList.add("reveal1");
+    ScrollReveal().reveal(".reveal1", {
       distance: "150%",
       delay: 500,
       duration: 1000,
     });
     // Animates the status of the result that is Great!
-    ScrollReveal().reveal(".result-description > h3", {
+    resultDescriptionH3.classList.add("reveal2");
+    ScrollReveal().reveal(".reveal2", {
       distance: "150%",
       delay: 1000,
       duration: 1000,
     });
     // Animates the description of the result.
-    ScrollReveal().reveal(".result-description > p", {
+    resultDescriptionP.classList.add("reveal3");
+    ScrollReveal().reveal(".reveal3", {
       distance: "150%",
       delay: 2000,
       duration: 1000,
@@ -63,28 +73,30 @@ $(document).ready(function () {
     const productDescription = document.querySelector("tbody"); // This variable saves all tr rows that contain data about the test.
 
     for (const child of productDescription.children) {
-      child.classList.add("reveal-top");
+      child.classList.add("reveal4");
     }
     // Animates test data
-    ScrollReveal().reveal(".reveal-top", {
+    ScrollReveal().reveal(".reveal4", {
       distance: "150%",
       delay: 5000,
       duration: 1000,
       interval: 1750,
     });
     // Animates the button: Continue
-    ScrollReveal().reveal(".summary-pane > button", {
+    summaryPaneButton.classList.add("reveal5");
+    ScrollReveal().reveal(".reveal5", {
       opacity: 0,
       delay: 12000,
       duration: 1000,
     });
-    // ScrollReveal().clean(".summary-pane > button");
-    // ScrollReveal().clean(".reveal-top");
-    // ScrollReveal().clean(".result-description > p");
-    // ScrollReveal().clean(".result-description > h3");
-    // ScrollReveal().clean(resultText);
+    resultText.classList.remove("reveal1");
+    resultDescriptionH3.classList.remove("reveal2");
+    resultDescriptionP.classList.remove("reveal3");
+    for (const child of productDescription.children) {
+      child.classList.remove("reveal4");
+    }
+    summaryPaneButton.classList.remove("reveal5");
     //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
-    $("body").css("height", "100vh"); 
+    $("body").css("height", "100vh");
   });
-    ScrollReveal().destroy();
 });
