@@ -47,21 +47,18 @@ $(document).ready(function () {
       delay: 500,
       duration: 1000,
     });
-    ScrollReveal().reveal(resultText, { cleanup: true });
     // Animates the status of the result that is Great!
     ScrollReveal().reveal(".result-description > h3", {
       distance: "150%",
       delay: 1000,
       duration: 1000,
     });
-    ScrollReveal().reveal(".result-description > h3", { cleanup: true });
     // Animates the description of the result.
     ScrollReveal().reveal(".result-description > p", {
       distance: "150%",
       delay: 2000,
       duration: 1000,
     });
-    ScrollReveal().reveal(".result-description > p", { cleanup: true });
 
     const productDescription = document.querySelector("tbody"); // This variable saves all tr rows that contain data about the test.
 
@@ -75,15 +72,19 @@ $(document).ready(function () {
       duration: 1000,
       interval: 1750,
     });
-    ScrollReveal().reveal(".reveal-top", { cleanup: true });
     // Animates the button: Continue
     ScrollReveal().reveal(".summary-pane > button", {
       opacity: 0,
       delay: 12000,
       duration: 1000,
     });
-    ScrollReveal().reveal(".summary-pane > button", { cleanup: true });
+    // ScrollReveal().clean(".summary-pane > button");
+    // ScrollReveal().clean(".reveal-top");
+    // ScrollReveal().clean(".result-description > p");
+    // ScrollReveal().clean(".result-description > h3");
+    // ScrollReveal().clean(resultText);
     //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
     $("body").css("height", "100vh"); 
   });
+    ScrollReveal().destroy();
 });
