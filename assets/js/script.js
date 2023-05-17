@@ -1,11 +1,10 @@
-
-$(document).ready(function () { 
+$(document).ready(function () {
   // FETCHING DATA FROM JSON FILE
   $.getJSON("./assets/data/data.json", function (data) {
     var test = "";
     var total = 0; // For calculating the total that will use to calculate the result.
     var result = 0; // For calculating the average, which is called: result.
-
+    ScrollReveal({ reset: true });
     $.each(data, function (key, value) {
       var testCategory = value.category; // Category value in the data.json file
       var iconSrc = value.icon; // icon value in the data.json file (sorce of icon)
@@ -40,23 +39,23 @@ $(document).ready(function () {
     const resultText = document.querySelector(".result-pane .average-result p");
     $(resultText).text(result);
 
-    //  Codes for animation 
+    //  Codes for animation
 
     // Animates result
     ScrollReveal().reveal(resultText, {
-      opacity: 0,
+      distance: "150%",
       delay: 500,
       duration: 1000,
     });
     // Animates the status of the result that is Great!
     ScrollReveal().reveal(".result-description > h3", {
-      opacity: 0,
+      distance: "150%",
       delay: 1000,
       duration: 1000,
     });
     // Animates the description of the result.
     ScrollReveal().reveal(".result-description > p", {
-      opacity: 0,
+      distance: "150%",
       delay: 2000,
       duration: 1000,
     });
@@ -68,7 +67,7 @@ $(document).ready(function () {
     }
     // Animates test data
     ScrollReveal().reveal(".reveal-top", {
-      opacity: 0,
+      distance: "150%",
       delay: 5000,
       duration: 1000,
       interval: 1750,
@@ -79,6 +78,6 @@ $(document).ready(function () {
       delay: 12000,
       duration: 1000,
     });
-    
+     $("body").css("height", "100vh");
   });
 });
