@@ -44,7 +44,7 @@ $(document).ready(function () {
     //  Codes for animation
 
     const resultDescriptionH3 = document.querySelector(
-      ".result-description > h3"
+      ".result-description > h2"
     );
     const resultDescriptionP = document.querySelector(
       ".result-description > p"
