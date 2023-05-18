@@ -88,6 +88,7 @@ $(document).ready(function () {
       opacity: 0,
       delay: 9500,
       duration: 1000,
+      mobile: false,
     });
 
     // Stopping animation

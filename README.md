@@ -13,11 +13,12 @@
 <br>
 
 # **Description**
-This component shows a result and summary of a cognitive ability test.  
-The data, which consists of summary, and some CSS properties for styling them, is saved in the data.json file. After loading data from this file into the DOM, the result will calculate too.  
-Then, with scrollreveal.js, information will show to the user.
-For using this component, an internet connection is needed.
- 
+- This component shows a result and summary of a cognitive ability test.  
+- The data, which consists of summary, and some CSS properties for styling them, is saved in the data.json file.
+- The result will calculate after fetching data by JQuery from this file into the DOM.  
+- Finally, with scrollreveal.js, information will show to the user.
+- For using this component, an internet connection is needed.
+<br>
 
 ## **Layout**
 
