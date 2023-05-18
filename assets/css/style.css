@@ -65,7 +65,7 @@ main {
   background: linear-gradient(180deg, #7857ff 0%, #2e2be9 100%);
   border-radius: 0 0 35px 35px;
 }
-.result-pane > h1 {
+.result-pane > h2 {
   align-self: end;
 
   color: var(--light-lavender);

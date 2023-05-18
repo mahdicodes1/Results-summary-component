@@ -17,6 +17,8 @@ $(document).ready(function () {
         "'> <div class='test-name'>" +
         "<img src=" +
         iconSrc +
+        " alt = " +
+        testCategory +
         ">" +
         value.category +
         "</div>" +
