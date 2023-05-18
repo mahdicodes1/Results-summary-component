@@ -89,8 +89,7 @@ $(document).ready(function () {
     ScrollReveal().reveal(".reveal5", {
       opacity: 0,
       delay: 9500,
-      duration: 1000,
-      mobile: false,
+      duration: 1000, 
     });
 
     // Stopping animation
