@@ -78,15 +78,15 @@ $(document).ready(function () {
     // Animates test data
     ScrollReveal().reveal(".reveal4", {
       distance: "150%",
-      delay: 5000,
-      duration: 1000,
-      interval: 1750,
+      delay: 4000,
+      duration: 750,
+      interval: 1500,
     });
     // Animates the button: Continue
     summaryPaneButton.classList.add("reveal5");
     ScrollReveal().reveal(".reveal5", {
       opacity: 0,
-      delay: 12000,
+      delay: 9500,
       duration: 1000,
     });
 
