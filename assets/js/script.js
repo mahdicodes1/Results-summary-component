@@ -89,14 +89,17 @@ $(document).ready(function () {
       delay: 12000,
       duration: 1000,
     });
-    // resultText.classList.remove("reveal1");
-    // resultDescriptionH3.classList.remove("reveal2");
-    // resultDescriptionP.classList.remove("reveal3");
-    // for (const child of productDescription.children) {
-    //   child.classList.remove("reveal4");
-    // }
-    // summaryPaneButton.classList.remove("reveal5");
-    // //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
+
+    // Stopping animation
+    ScrollReveal().reveal(".reveal1", {reset: false});
+    ScrollReveal().reveal(".reveal2", { reset: false });
+    ScrollReveal().reveal(".reveal3", { reset: false });
+    for (const child of productDescription.children) {
+      ScrollReveal().reveal(".reveal4", { reset: false });
+    }
+    ScrollReveal().reveal(".reveal5", { reset: false });
+
+    //Solving conflict: The below code resolves the property (height) that ScrollReveal makes it height = 100%
     $("body").css("height", "100vh");
   });
 });
