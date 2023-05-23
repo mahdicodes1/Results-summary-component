@@ -8,7 +8,7 @@
 
 # **Challenge Name**
 
-- ### [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
+- ### [Results summary component](https://www.frontendmentor.io/solutions/results-summary-component-n9myxX89mz)
 
 <br>
 
